@@ -1,0 +1,36 @@
+---
+import Link from "../components/Link.astro";
+import Section from "../components/Section.astro";
+import Subtitle from "../components/Subtitle.astro";
+import Layout from "../layouts/Layout.astro";
+import Head from "../sections/Head.astro";
+import LinkSection from "../sections/List.astro";
+---
+
+<Layout title="gxlpes - useful links">
+  <main
+    class="text-4xl w-full mx-auto flex-col flex items-center text-start justify-center max-w-5xl py-20 px-4 sm:px-12"
+  >
+    <Head />
+    <Section>
+      <Subtitle>blog posts</Subtitle>
+      <LinkSection>
+        <li><Link href="https://gxlpes.dev">• testing</Link></li>
+        <li><Link href="https://gxlpes.dev">• testing</Link></li>
+        <li><Link href="https://gxlpes.dev">• testing</Link></li>
+        <li><Link href="https://gxlpes.dev">• testing</Link></li>
+        <li><Link href="https://gxlpes.dev">• testing</Link></li>
+      </LinkSection>
+    </Section>
+    <Section>
+      <Subtitle>blog posts</Subtitle>
+      <LinkSection>
+        <li><Link href="https://gxlpes.dev">• testing</Link></li>
+        <li><Link href="https://gxlpes.dev">• testing</Link></li>
+        <li><Link href="https://gxlpes.dev">• testing</Link></li>
+        <li><Link href="https://gxlpes.dev">• testing</Link></li>
+        <li><Link href="https://gxlpes.dev">• testing</Link></li>
+      </LinkSection>
+    </Section>
+  </main>
+</Layout>
